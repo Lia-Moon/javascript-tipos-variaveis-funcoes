@@ -25,3 +25,16 @@ const senha = "Jujusvieira";
 console.log(senha.length);
 
 console.log("\n");
+
+const soma = 10 + 10;
+const multiplicacao = 10 * 10;
+const operacao = (soma + multiplicacao) + 10;
+
+console.log(soma);
+console.log(multiplicacao);
+console.log(operacao);
+
+console.log("\n");
+
+console.log("deu erro");
+console.error(new Error("deu erro"));
